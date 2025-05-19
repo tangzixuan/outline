@@ -102,6 +102,8 @@ export default function useDictionary() {
       untitled: t("Untitled"),
       none: t("None"),
       toggleBlock: t("Toggle block"),
+      emptyToggleBlockHead: t("Toggle"),
+      emptyToggleBlockBody: `${t("Click to type here")}…`,
     }),
     [t]
   );
