@@ -104,6 +104,9 @@ export default function useDictionary() {
       toggleBlock: t("Toggle block"),
       emptyToggleBlockHead: t("Toggle"),
       emptyToggleBlockBody: `${t("Click to type here")}…`,
+      emptyTextBlockWithinToggleBlock: `${t(
+        "Type or press 'Shift-Tab' to exit"
+      )}…`,
     }),
     [t]
   );
